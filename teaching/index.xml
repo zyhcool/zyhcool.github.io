@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教学平台 on 幼之幼教育</title>
-    <link>http://zyhcool.github.io/teaching/</link>
+    <link>https://zyhcool.github.io/teaching/</link>
     <description>Recent content in 教学平台 on 幼之幼教育</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 12 Jul 2018 18:19:33 +0600</lastBuildDate>
     
-	<atom:link href="http://zyhcool.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zyhcool.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
