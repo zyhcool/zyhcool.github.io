@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zyhcool.github.io/game/</loc>
+    <loc>/game/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zyhcool.github.io/teaching/</loc>
+    <loc>/teaching/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zyhcool.github.io/testing/</loc>
+    <loc>/testing/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zyhcool.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zyhcool.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zyhcool.github.io/</loc>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   

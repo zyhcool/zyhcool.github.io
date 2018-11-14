@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>考证模拟平台 on 幼之幼教育</title>
-    <link>https://zyhcool.github.io/testing/</link>
+    <link>/testing/</link>
     <description>Recent content in 考证模拟平台 on 幼之幼教育</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 12 Jul 2018 18:19:33 +0600</lastBuildDate>
     
-	<atom:link href="https://zyhcool.github.io/testing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/testing/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
