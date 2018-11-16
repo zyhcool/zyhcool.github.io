@@ -315,11 +315,11 @@ aside.clients{
     font-weight: 600;
     color: #fed136;
 }
-@media(max-width:768px){
+/* @media(max-width:768px){
     .clients img{
         max-width: 160px;
     }
-}
+} */
 
 /* contact */
 .methods{
