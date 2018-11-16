@@ -10,18 +10,18 @@
   <meta name="generator" content="Hugo 0.49.2" />
   <title>考证模拟平台 &middot; 幼之幼教育</title>
   <!-- Stylesheets -->
-  <link href="/css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
+  <link href="//cdn.youzhiyou.net/npm/bootstrap/3.3.7/bootstrap.min.css" rel="stylesheet">
   <link href="/css/agency.css" rel="stylesheet">
-  <link href="/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet">
+  <link href="//cdn.youzhiyou.net/npm/jquery.form-validator/2.3.44/theme-default.min.css" rel="stylesheet">
 
   
-    <link rel="stylesheet" href="/css/wow/animate.css">
+    <link rel="stylesheet" href="//cdn.youzhiyou.net/npm/wow/animate.css">
   
     <link rel="stylesheet" href="/css/yzy.css">
   
 
   <!-- Custom Fonts -->
-  <link href="/font-awesome-v4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="//cdn.youzhiyou.net/npm/font-awesome/4.7.0/font-awesome.min.css" rel="stylesheet" type="text/css">
 
   
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -49,7 +49,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <a class="navbar-brand page-scroll" title="返回首页" href="/">
+                <a class="navbar-brand page-scroll" title="返回首页" href="/#services">
                     
                     <img src="/img/favicon.ico" class="img-responsive" alt="">
                 </a>
@@ -195,7 +195,7 @@
                 
                 
                 <div class="res-wrapper">
-                    <p class="desc text-muted wow fadeInDown animation-delay-1">针对性训练，从基础理论到时间演练，各个击破，助力冲刺考试目标</p>
+                    <p class="desc text-muted wow fadeInDown animation-delay-1">针对性训练，从基础理论到实践演练，各个击破，助力冲刺考试目标</p>
                     <div class="wow fadeInUp animation-delay-1">
                         <div class="square-rotate res-bg-lightgray"></div>
                         <p class="no-rotate">专题练习</p>
@@ -370,7 +370,7 @@
       <div class="col-md-7 copyright-center">
         <span class="copyright">Copyright@2018  幼之幼（厦门）教育科技有限公司  闽ICP备17019748号</span>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 social-wrapper">
         <ul class="list-inline social-buttons">
           
             <li>
@@ -387,13 +387,13 @@
 
 
     <!-- jQuery -->
-<script src="/js/jquery-v3.3.1/jquery.min.js"></script>
+<script src="//cdn.youzhiyou.net/npm/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Bootstrap Core -->
-<script src="/js/bootstrap-v3.3.7/bootstrap.min.js"></script>
+<script src="//cdn.youzhiyou.net/npm/bootstrap/3.3.7/bootstrap.min.js"></script>
 
 <!-- Form Validation -->
-<script src="/js/jquery.form-validator-v2.3.44/jquery.form-validator.min.js"></script>
+<script src="//cdn.youzhiyou.net/npm/jquery.form-validator/2.3.44/jquery.form-validator.min.js"></script>
 
 <!-- Custom Theme -->
 <script src="/js/agency.js"></script>
@@ -405,7 +405,7 @@
 
 
 
-  <script src="/js/wow/wow.min.js"></script>
+  <script src="//cdn.youzhiyou.net/npm/wow/wow.min.js"></script>
   <script>
       new WOW({
         boxClass:"wow",
@@ -414,11 +414,16 @@
         mobile:true,
         live:true,
       }).init();
+
+      $(function(){
+    $(".container").width($(".container").width()-30);
+
+});
   </script>
 
 
     <script>
-        $("a").on('click', function (event) {
+        $(".navbar li a").on('click', function (event) {
             if (this.hash && window.location.pathname == "/testing/") {
                 event.preventDefault();
                 var hash = this.hash;

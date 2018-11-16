@@ -10,18 +10,18 @@
   <meta name="generator" content="Hugo 0.49.2" />
   <title>幼之幼教育</title>
   <!-- Stylesheets -->
-  <link href="/css/bootstrap-v3.3.7/bootstrap.min.css" rel="stylesheet">
+  <link href="//cdn.youzhiyou.net/npm/bootstrap/3.3.7/bootstrap.min.css" rel="stylesheet">
   <link href="/css/agency.css" rel="stylesheet">
-  <link href="/css/jquery.form-validator-v2.3.44/theme-default.min.css" rel="stylesheet">
+  <link href="//cdn.youzhiyou.net/npm/jquery.form-validator/2.3.44/theme-default.min.css" rel="stylesheet">
 
   
-    <link rel="stylesheet" href="/css/wow/animate.css">
+    <link rel="stylesheet" href="//cdn.youzhiyou.net/npm/wow/animate.css">
   
     <link rel="stylesheet" href="/css/yzy.css">
   
 
   <!-- Custom Fonts -->
-  <link href="/font-awesome-v4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="//cdn.youzhiyou.net/npm/font-awesome/4.7.0/font-awesome.min.css" rel="stylesheet" type="text/css">
 
   
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -133,8 +133,8 @@
   </div>
   <div class="row">
       <div class="profile">
-          <div class="pic wow fadeInLeftBig"><img src="img/profile/profile.jpg" alt=""></div>
-          <div class="desc wow fadeInRight">幼之幼（厦门）教育科技有限公司坐落于“经济特区”福建省厦门市软件园二期，专注于为全国大中专院校学前教育专业建设和人才培养提供整体解决方案，其中包括信息化建设、资源库建设、师资培养、实习就业、实训室建设等。<br><br>自成立以来以“幼吾幼以及人之幼”为教育理念，以培养真诚、善良、有爱的幼师为己任，以开放的心态与全国大中专院校、幼儿园、学前教育同行合作，共同打造良好的学前儿童教育环境。</div>
+          <div class="pic col-sm-12 col-md-6 wow fadeInLeftBig"><img src="img/profile/profile.jpg" alt=""></div>
+          <div class="desc col-sm-12 col-md-6 wow fadeInRight">幼之幼（厦门）教育科技有限公司坐落于“经济特区”福建省厦门市软件园二期，专注于为全国大中专院校学前教育专业建设和人才培养提供整体解决方案，其中包括信息化建设、资源库建设、师资培养、实习就业、实训室建设等。<br><br>自成立以来以“幼吾幼以及人之幼”为教育理念，以培养真诚、善良、有爱的幼师为己任，以开放的心态与全国大中专院校、幼儿园、学前教育同行合作，共同打造良好的学前儿童教育环境。</div>
       </div>
   </div>
 
@@ -155,7 +155,7 @@
     
       <div class="row text-center">
         
-          <div class="col-md-4 wow fadeInLeft animation-delay-0">
+          <div class="service-margin col-md-4 wow fadeInLeft animation-delay-0">
              <a class="service-wrapper" href="/teaching/index.html">
             <div class="service-highlight">
               <div class="service-hover"><p>了解更多 >>></p></div>
@@ -169,7 +169,7 @@
         </a>
         </div>
         
-          <div class="col-md-4 wow fadeInLeft animation-delay-1">
+          <div class="service-margin col-md-4 wow fadeInLeft animation-delay-1">
              <a class="service-wrapper" href="/testing/index.html">
             <div class="service-highlight">
               <div class="service-hover"><p>了解更多 >>></p></div>
@@ -183,7 +183,7 @@
         </a>
         </div>
         
-          <div class="col-md-4 wow fadeInLeft animation-delay-2">
+          <div class="service-margin col-md-4 wow fadeInLeft animation-delay-2">
              <a class="service-wrapper" href="/game/index.html">
             <div class="service-highlight">
               <div class="service-hover"><p>了解更多 >>></p></div>
@@ -457,71 +457,7 @@
 
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <form method="POST" name="sentMessage" id="contactForm" action="http://localhost:4000/api/message">
-          <fieldset>
-            <div class="row">
-              <div class="col-md-6">
-                
-                <div class="form-group">
-                  <input class="form-control" id="name" required="required" type="text" name="name" placeholder="姓名 *"
-                    data-validation-error-msg="请填写您的姓名">
-                  <p class="help-block text-danger"></p>
-                </div>
-                
-                
-                <div class="form-group">
-                  <input class="form-control" id="email" required="required" type="email" name="email" placeholder="邮箱 *"
-                    data-validation-error-msg="请留下您的邮箱地址">
-                  <p class="help-block text-danger"></p>
-                </div>
-                
-                
-                <div class="form-group">
-                  <input class="form-control" id="tel" required="required" type="number" name="tel" placeholder="手机 *"
-                    data-validation-error-msg="请留下您的手机号码"></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                
-              </div>
-              <div class="col-md-6">
-                
-                <div class="form-group">
-                  <textarea class="form-control" id="content" required="required" name="content" placeholder="留言 *"
-                    data-validation-error-msg="简单跟我们说说您的想法"></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-                
-              </div>
-              <div class="clearfix"></div>
-              <div class="col-lg-12 text-center">
-                <div class="text-success" id="success" style="display:none;">
-                  
-                  发送成功，我们将尽快对您的留言做出反馈。
-                  
-                </div>
-                <div class="captcha-error text-danger" id="captcha-error">
-                  
-                </div>
-                <div class="text-danger" id="error" style="display:none;">
-                  
-                  当前发送失败，请自行联系service@youzhiyou.net
-                  
-                </div><br />
-                
-                <button type="submit" value="Submit" class="btn btn-xl">
-                  发送
-                </button>
-                
-                <input type="reset" name="reset" style="display:none;" />
-              </div>
-            </div>
-            
-          </fieldset>
-        </form>
-      </div>
-    </div>
+
     <div class="row">
       <div class="col-lg-12 methods">
         <div class="row">
@@ -580,7 +516,7 @@
       <div class="col-md-7 copyright-center">
         <span class="copyright">Copyright@2018  幼之幼（厦门）教育科技有限公司  闽ICP备17019748号</span>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 social-wrapper">
         <ul class="list-inline social-buttons">
           
             <li>
@@ -600,13 +536,13 @@
     
 
     <!-- jQuery -->
-<script src="/js/jquery-v3.3.1/jquery.min.js"></script>
+<script src="//cdn.youzhiyou.net/npm/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Bootstrap Core -->
-<script src="/js/bootstrap-v3.3.7/bootstrap.min.js"></script>
+<script src="//cdn.youzhiyou.net/npm/bootstrap/3.3.7/bootstrap.min.js"></script>
 
 <!-- Form Validation -->
-<script src="/js/jquery.form-validator-v2.3.44/jquery.form-validator.min.js"></script>
+<script src="//cdn.youzhiyou.net/npm/jquery.form-validator/2.3.44/jquery.form-validator.min.js"></script>
 
 <!-- Custom Theme -->
 <script src="/js/agency.js"></script>
@@ -618,7 +554,7 @@
 
 
 
-  <script src="/js/wow/wow.min.js"></script>
+  <script src="//cdn.youzhiyou.net/npm/wow/wow.min.js"></script>
   <script>
       new WOW({
         boxClass:"wow",
@@ -627,6 +563,11 @@
         mobile:true,
         live:true,
       }).init();
+
+      $(function(){
+    $(".container").width($(".container").width()-30);
+
+});
   </script>
 
 
